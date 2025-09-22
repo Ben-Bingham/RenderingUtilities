@@ -4,7 +4,7 @@
 #include <glm/ext/quaternion_geometric.hpp>
 #include <glm/ext/scalar_constants.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     float RandomFloat() {
         return RandomFloat(0.0f, 1.0f);
     }

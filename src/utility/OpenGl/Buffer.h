@@ -37,6 +37,10 @@ namespace RenderingUtilities {
             glBindBuffer(BUFFER_TYPE, m_Handle);
         }
 
+        void Unbind() {
+            glBindBuffer(BUFFER_TYPE, 0);
+        }
+
     private:
         unsigned int m_Handle{ 0 };
     };

@@ -1,7 +1,7 @@
 #pragma once
 #include <glm/vec3.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     float RandomFloat(); // Generates a number in the range [0.0, 1.0)
     float RandomFloat(float min, float max); // Generates a number in the range [min, max)
 

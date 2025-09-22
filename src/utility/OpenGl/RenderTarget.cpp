@@ -1,6 +1,6 @@
 #include "RenderTarget.h"
 
-namespace Rutile {
+namespace RenderingUtilities {
 	RenderTarget::RenderTarget(const glm::ivec2& size) 
 		: m_Size(size)
         , m_Framebuffer()

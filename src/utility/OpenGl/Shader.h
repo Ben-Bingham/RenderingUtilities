@@ -4,7 +4,7 @@
 
 #include <glm/glm.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     class Shader {
     public:
         Shader(const std::string& vertexShaderPath, const std::string& fragmentShaderPath, const std::string& geometryShaderPath = "");

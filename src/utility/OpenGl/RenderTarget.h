@@ -6,7 +6,7 @@
 #include "Renderbuffer.h"
 #include "Texture.h"
 
-namespace Rutile {
+namespace RenderingUtilities {
 	class RenderTarget {
 	public:
 		RenderTarget(const glm::ivec2& size);

@@ -3,7 +3,7 @@
 #include <glm/ext/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     void Transform::CalculateMatrix() {
         const glm::mat4 translationMatrix = glm::translate(glm::mat4{ 1.0f }, position);
 

@@ -3,7 +3,7 @@
 #include <chrono>
 #include <string>
 
-namespace Rutile {
+namespace RenderingUtilities {
 	// Measures the amount of time it takes to reach the end of the current scope
 	class TimeScope {
 	public:

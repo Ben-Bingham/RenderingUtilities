@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace Rutile {
+namespace RenderingUtilities {
 	TimeScope::TimeScope(std::chrono::duration<double>* output, const std::string& name) 
 		: m_Output(output), m_Name(name) {
 		m_StartTime = std::chrono::steady_clock::now();

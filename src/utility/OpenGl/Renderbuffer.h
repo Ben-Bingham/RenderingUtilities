@@ -5,7 +5,7 @@
 
 #include <glm/vec2.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     class Renderbuffer {
     public:
         enum class InternalFormat {

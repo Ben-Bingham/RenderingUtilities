@@ -2,7 +2,7 @@
 
 #include <vector>
 
-namespace Rutile {
+namespace RenderingUtilities {
     template<typename T>
     class SSBO {
     public:

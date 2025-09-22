@@ -1,6 +1,6 @@
 #include "Renderbuffer.h"
 
-namespace Rutile {
+namespace RenderingUtilities {
     Renderbuffer::Renderbuffer(glm::ivec2 size, InternalFormat internalFormat) {
         glGenRenderbuffers(1, &m_RenderbufferHandle);
         Bind();

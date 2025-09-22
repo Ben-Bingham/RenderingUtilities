@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace Rutile {
+namespace RenderingUtilities {
     Framebuffer::Framebuffer() {
         glGenFramebuffers(1, &m_FramebufferHandle);
         Bind();

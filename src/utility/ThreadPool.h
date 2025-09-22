@@ -6,14 +6,13 @@
 #include <queue>
 #include <iostream>
 
-namespace Rutile {
+namespace RenderingUtilities {
     template<typename ArgumentType>
     class ThreadPool {
     public:
         using Job = std::function<void(ArgumentType)>;
 
         ThreadPool(size_t threadCount) {
-            //std::cout << threadCount << std::endl;
             for (size_t i = 0; i < threadCount; ++i) {
                 m_Threads.emplace_back(&ThreadPool::ThreadLoop, this);
             }

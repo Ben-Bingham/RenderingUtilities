@@ -9,7 +9,7 @@
 
 #include <glm/gtc/type_ptr.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     std::string ReadFile(const std::string& path) {
         std::string out;
         std::ifstream file;

@@ -6,7 +6,7 @@
 #include "Texture.h"
 #include "Renderbuffer.h"
 
-namespace Rutile {
+namespace RenderingUtilities {
     class Framebuffer {
     public:
         enum class TextureUses {

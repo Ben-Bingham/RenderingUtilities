@@ -5,7 +5,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
 
-namespace Rutile {
+namespace RenderingUtilities {
     TextureParameters::TextureParameters(
         TextureFormat imageFormat,
         TextureStorageType internalStorageType,

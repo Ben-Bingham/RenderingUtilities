@@ -9,7 +9,7 @@
 
 #include <glm/vec2.hpp>
 
-namespace Rutile {
+namespace RenderingUtilities {
     enum class TextureFormat {
         R = GL_RED,
         RGB = GL_RGB,

@@ -10,4 +10,5 @@ struct Shape {
 };
 
 Shape GetTriangle();
+Shape GetSquare();
 Shape GetCube();
